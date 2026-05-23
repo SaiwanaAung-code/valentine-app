@@ -72,7 +72,7 @@ export class App {
     const end = Date.now() + duration;
 
     const frame = () => {
-      confetti({ particleCount: 7, angle: 60, spread: 55, origin: { x: 0 }, colors: ['#0022ff', '#ff0000', '#ffffff'] });
+      confetti({ particleCount: 7, angle: 60, spread: 55, origin: { x: 0 }, colors: ['#ff7eb3', '#ff758c', '#ffffff'] });
       confetti({ particleCount: 7, angle: 120, spread: 55, origin: { x: 1 }, colors: ['#ff7eb3', '#ff758c', '#ffffff'] });
       if (Date.now() < end) requestAnimationFrame(frame);
     };
