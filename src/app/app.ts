@@ -48,7 +48,7 @@ export class App {
   currentGif = computed(() => {
     if (this.isAccepted()) {
       // Success GIF!
-      return "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
+      return "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExenZ6cGRweWppbGs0Z2Z5bDBhd2R0Njd0NDk2Z2pha2M5eHdxZnRtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fvN5KrNcKKUyX7hNIA/giphy.gif";
     }
     return this.gifs[Math.min(this.noCount(), this.gifs.length - 1)];
   });
